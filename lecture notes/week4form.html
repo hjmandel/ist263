@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Form</title>
+    </head>
+    <body>
+        <form action="mailto:hjmandel@syr.edu" method="POST">
+<!--Input with Type Text (short text)-->
+            <label for="fullname">Enter Full Name:</label>
+            <input type="text" id="fullname" name="fname">
+
+            <br>
+<!--Text Area (long text)-->
+            <label for="complaint">Describe Your Complaint:</label>
+            <textarea id="complaint" name="complaint">Enter your complaint here.</textarea>
+
+               <br>
+<!--Radio Type (one option only)-->
+                <p>How angry are you?</p>
+                <input type="radio" id="angry1" name="angry" value="very angry">
+                <label for="angry1">very angry</label>
+                <input type="radio" id="angry2" name="angry" value="not too angry">
+                <label for="angry2">not too angry</label>
+                <!---FOR RADIO TYPE, ALL "NAME=" HAVE TO BE THE SAME SO YOU CAN ONLY CLICK ONE INPUT
+                     All of the label for= should be unique-->
+               
+                <br>
+<!--Dropdown Menu-->
+                <label for="contactmethod">How would you like to be contacted?</label>
+                <select id="contactmethod" name="contactmethod">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="snailmail">Snail Mail</option>
+                </select>
+                <br>
+<!--Checkbox-->
+                <label for="contacttime">Can we contact you at night?</label>
+                <input type="checkbox" id="contacttime" name="contacttime" value="Yes">
+            
+                <br>
+<!--Input with Type Submit-->
+                <input type="submit" value="Send My Complaint">
+        </form>
+    
+    </body>
+</html>
