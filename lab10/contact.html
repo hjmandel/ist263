@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---This makes the website load full size on a mobil device, MUST BE WITHIN HEAD TAGS-->
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles7.css">
+        <style>
+           .address {margin:20px;}
+           .links {margin:20px;}
+           .clear {clear:both;}
+           .section1 , .section2 {display:flex; background-color: #ffafc0; padding:15px; margin:15px; border-radius:1.2em;}
+           .section2 {flex-wrap:wrap;}
+           .form {margin:20px;}
+           .form {flex:1; order:1;}
+           iframe {flex:1; order:2;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home <span>|</span></a>
+            <a href="contact.html">Contact <span>|</span></a>
+            <a href="skills.html">Skills</a>
+        </nav>
+        <h1>Contact</h1>
+        
+        <div class="section1">
+            <div class="address">
+            Hallie Mandelbaum <br>
+            727 S Crouse Avenue <br>
+            Syracuse, NY 13210    
+            </div>
+            <div class="links">
+            <a href="mailto:hjmandel@syr.edu">Hallie Mandelbaum's Email</a> <br> <br>
+            <a href="https://www.linkedin.com/in/hallie-mandelbaum/">
+            <img src="../images/logo-sized.png" alt="LinkedIn Logo"></a>
+            <a href="https://www.linkedin.com/in/hallie-mandelbaum/" target="_blank">My LinkedIn Profile</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="section2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.967344166412!2d-76.13830628475793!3d43.04211857914697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3570d9dfc1f%3A0x9bbc6e8944894be8!2s727%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631806706889!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <br>
+        <br>
+            <div class="form">
+                <form action="mailto:hjmandel@syr.edu" method="POST">
+                <h2>Contact Me</h2>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname"> <br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+                <br>
+                <label for="reason">Reason for contact:</label>
+                <textarea id="reason" name="reason">Enter reasoning here.</textarea>
+                <br>
+                <h3>What is the best form of communication?</h3>
+                <input type="radio" id="comm1" name="phone" value="Phone">
+                <label for="comm1">Phone</label>
+                <input type="radio" id="comm2" name="email" value="Email">
+                <label for="comm2">Email</label>
+                <input type="radio" id="comm3" name="mail" value="Postal Mail Service">
+                <label for="comm3">Postal Mail Service</label>
+                <br>
+                <label for="info">Contact Info:</label>
+                <input type="text" id="info" name="info">
+                <br>
+                <br>
+                <input type="submit" value="Send my responses">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

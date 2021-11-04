@@ -1,0 +1,42 @@
+
+.section1{
+    color: #6b0c43;
+    background-color:#ffb0c4;
+    font-weight:bolder;
+}
+
+
+.imagelab {max-width:100%;}
+
+body {
+    background-color: #F2E9ED;
+    color:#b15981;
+}
+
+ h1 {
+     color: #a05174;
+     font-size:200%;
+}
+ h2 {
+    color: #a05174;
+    font-size:100%; }
+
+h3, h4 {
+    color: #a05174;
+    font-size:100%; }
+
+a:link {color: #d100b5;}
+
+nav {
+    background-color: #fdcee3;
+    padding:10px;
+    margin-bottom:30px;
+}
+@media only screen and (max-width:770px) 
+{nav a {max-width:100%;display:block;} span {display:none;} }
+
+nav a {color:#a7065e; line-height:30px;}
+nav a:hover {background-color:#f0e2e5;
+color:#eb39d3;}
+
+body , h1 , h2 , h3 , h4 , p , aside {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
