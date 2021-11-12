@@ -7,7 +7,7 @@
 #skip {
     position: absolute; /* positions relative to parent container*/
     left: -999px; /* this will move it off the page */
-    background-color: #9ec0ff; }
+    background-color: #c3eeff; }
 
     #skip:focus {
         left:10px;}
@@ -36,6 +36,7 @@ a:link {color: #a70691;}
 
 nav {
     background-color: #ffdded;
+    font-weight:bold;
     padding:1em;
     margin-bottom:2.5em;
 }
