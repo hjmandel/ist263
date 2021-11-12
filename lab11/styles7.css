@@ -1,13 +1,13 @@
 
 .section1{
-    color: #6b0c43;
+    color: #691e4a;
     background-color:#ffb0c4;
     font-weight:bolder;
 }
 #skip {
     position: absolute; /* positions relative to parent container*/
     left: -999px; /* this will move it off the page */
-    background-color: #5093df; }
+    background-color: #50df9c; }
 
     #skip:focus {
         left:10px;}
@@ -15,34 +15,34 @@
 .imagelab {max-width:100%;}
 
 body {
-    background-color: #F2E9ED;
-    color:#b15981;
+    background-color: #ffeef7;
+    color:#a0296e;
 }
 
  h1 {
-     color: #a05174;
+     color: #a72771;
      font-size:200%;
 }
  h2 {
-    color: #a05174;
+    color: #a0296e;
     font-size:100%; }
 
 h3, h4 {
-    color: #a05174;
+    color: #a0296e;
     font-size:92%; }
 
-a:link {color: #d100b5;}
+a:link {color: #a70691;}
 
 nav {
-    background-color: #fdcee3;
+    background-color: #ffd9eb;
     padding:1em;
     margin-bottom:2.5em;
 }
 @media only screen and (max-width:770px) 
 {nav a {max-width:100%;display:block;} span {display:none;} }
 
-nav a {color:#a7065e; line-height:1em;}
-nav a:hover {background-color:#f0e2e5;
-color:#eb39d3;}
+nav a {color:#8d004e; line-height:1em;}
+nav a:hover {background-color:#fdf2f4;
+color:#d425bd;}
 
 body , h1 , h2 , h3 , h4 , p , aside {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
