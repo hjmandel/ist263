@@ -12,6 +12,9 @@ nav a:hover {
     background-color:#e7cbff; text-decoration:unset;      
     color:#4c0fdb;}
 
+    .head {display:flex; flex-wrap:wrap;}
+    .head div {flex:1;}
+
 h1 {text-align: left; margin-bottom:30px; letter-spacing:2px; margin-left:10px;}
 h2 {font-size: 18px;}
 footer {background-color:#851e9e; color:#ffffff; margin-top:30px; padding:22px; line-height: 2em;}
