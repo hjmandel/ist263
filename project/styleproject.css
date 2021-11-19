@@ -25,4 +25,4 @@ footer a {color:#ffffff;}
 
 @media only screen and (max-width:600px) { footer {display:flex;}
 .rightcolumn {flex:2; margin:20px;}
-.leftcolumn {flex:2; margin:20px; margin-left:40px;}}
+.leftcolumn {flex:2; margin:20px;}}
