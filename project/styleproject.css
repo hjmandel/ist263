@@ -22,7 +22,7 @@ footer a {color:#ffffff;}
         .mainflexbox {display:flex; margin:20px;}
         .rightcolumn {flex:1;}
         .leftcolumn {flex:6;} 
-footer a:hover{background-color:#751268;}
+footer a:hover{background-color:#7e1870;}
 
 @media only screen and (max-width:600px) { footer {display:flex; font-size:80%;}
 .rightcolumn {flex:2; margin:20px;}
