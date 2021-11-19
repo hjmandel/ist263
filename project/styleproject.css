@@ -23,3 +23,6 @@ footer a {color:#ffffff;}
         .rightcolumn {flex:1;}
         .leftcolumn {flex:6;} 
 
+@media only screen and (max-width:600px) { footer {display:flex;}
+.rightcolumn {flex:2; margin:20px;}
+.leftcolumn {flex:2; margin:20px; margin-left:40px;}}
