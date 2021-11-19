@@ -19,6 +19,7 @@ h1 {text-align: left; margin-bottom:30px; letter-spacing:2px; margin-left:10px;}
 h2 {font-size: 18px;}
 footer {background-color:#851e9e; color:#ffffff; margin-top:30px; padding:22px; line-height: 2em;}
 footer a {color:#ffffff;}
-        .mainflexbox {display:flex;}
-        .rightcolumn {margin:20px;}
-        .leftcolumn {flex:2; margin:20px;}
+        .mainflexbox {display:flex; margin:20px;}
+        .rightcolumn {flex:1;}
+        .leftcolumn {flex:6;} 
+

@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="styleproject.css">
     <title>Website Project</title>
     <style>
+        form {line-height:80px;}
         @media only screen and (max-width:1600px) 
         {
             .mainflex {display:flex; flex-wrap:wrap; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: #deadeb; border:rebeccapurple solid 10px; margin-bottom:200px; margin-top:20px;}
             .leftcol {flex:2; margin:25px; margin-left:33px; padding:30px;}
             .rightcol {flex:2; margin:25px; padding:20px;}
-            img {margin-left:200px; margin-right:60px;}
         }
         @media only screen and (max-width:600px) 
         {
-        .leftcol .rightcol {margin:none; padding:none;}
-        img {margin:none;}
+        .leftcol .rightcol {margin:none;}
         }
     </style>
 </head>
@@ -47,20 +46,20 @@
             <form action="mailto:hjmandel@syr.edu" method="POST">
             <label for="fullname">Name:</label>
             <input type="text" id="fullname" name="fname">
-            <br><br><br><br>
+            <br>
             <label for="complaint">Describe Your Story:</label>
-            <textarea id="complaint" name="complaint">Insert text here.</textarea>
-            <br><br><br><br>
+            <textarea id="complaint" name="complaint"></textarea>
+            <br>
             <label for="contactmethod">How would you like to be contacted?</label>
                 <select id="contactmethod" name="contactmethod">
                 <option value="phone">Phone</option>
                 <option value="email">Email</option>
                 <option value="socialmedia">Social Media</option>
                 </select>
-            <br><br><br>
+            <br>
             <label for="contact">Contact Information:</label>
             <input type="text" id="contact" name="contact">
-            <br><br><br><br>
+            <br>
             <input type="submit" value="Send My Response">
             </form>
             
