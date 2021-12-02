@@ -17,26 +17,27 @@
         @media only screen and (max-width:630px) 
         {
         h1 {padding:10px;}
-        .mainflex {margin:10px; margin-bottom:100px;}
-        .rightcol {font-size:80%;}
+        img {width:70%;}
+        .mainflex {margin:8px; margin-bottom:130px; padding:8px;}
+        .rightcol {font-size:70%; padding:5px;}
         .leftcol .rightcol {margin:0px;}
         }
     </style>
 </head>
 <body>
     <nav>
-        <div>|</div>
-        <div><a href="website_homepage.html" style="text-decoration:none">Home</a></div>
-        <div>|</div>
-        <div>|</div>
+        <div class="divider">|</div>
+        <div><a href="website_homepage.html" style="text-decoration:none">Home Page</a></div>
+        <div class="divider">|</div>
+        <div class="divider">|</div>
         <div><a href="website_parentpage.html" style="text-decoration:none">Mandelbaum x March of Dimes</a></div>
-        <div>|</div>
-        <div>|</div>
+        <div class="divider">|</div>
+        <div class="divider">|</div>
         <div><a href="website_hjpage.html" style="text-decoration:none">Our Story</a></div>
-        <div>|</div>
-        <div>|</div>
+        <div class="divider">|</div>
+        <div class="divider">|</div>
         <div><a href="website_share.html" style="text-decoration:none">Share Your Story</a></div>
-        <div>|</div>
+        <div class="divider">|</div>
     </nav>
     <div class="head"><h1>WE WANT TO HEAR FROM YOU!</h1></div>
     <div class="mainflex">
@@ -53,14 +54,14 @@
             <label for="complaint">Describe Your Story:</label>
             <textarea id="complaint" name="complaint"></textarea>
             <br>
-            <label for="contactmethod">How would you like to be contacted?</label>
+            <label for="contactmethod">Method of Contact:</label>
                 <select id="contactmethod" name="contactmethod">
                 <option value="phone">Phone</option>
                 <option value="email">Email</option>
                 <option value="socialmedia">Social Media</option>
                 </select>
             <br>
-            <label for="contact">Contact Information:</label>
+            <label for="contact">Contact Info:</label>
             <input type="text" id="contact" name="contact">
             <br>
             <input type="submit" value="Send My Response">

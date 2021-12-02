@@ -3,7 +3,7 @@ nav {
     display:flex;
     justify-content: space-between;
     background-color:#fceeff;
-    font-size: 20px;
+    font-size: 130%;
     font-family:'Courier New', Courier, monospace;
     color: #851e9e;
     margin-bottom:80px; text-align:center;
@@ -28,4 +28,7 @@ footer a {color:#ffffff;}
 footer {display:flex; font-size:75%; padding:none;}
 .rightcolumn {flex:1; margin-left:13px;}
 .leftcolumn {flex:3;}
+nav {font-size:66%; padding:10px;}
+.divider {font-size:165%;}
+h1 {font-size:180%;}
 }
