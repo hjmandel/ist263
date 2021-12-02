@@ -28,7 +28,7 @@ footer a {color:#ffffff;}
 footer {display:flex; font-size:75%; padding:none;}
 .rightcolumn {flex:1; margin-left:13px;}
 .leftcolumn {flex:3;}
-nav {font-size:66%; padding:10px;}
+nav {font-size:69%; padding:8px;}
 .divider {font-size:165%;}
 h1 {font-size:180%;}
 }
