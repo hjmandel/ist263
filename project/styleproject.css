@@ -21,7 +21,7 @@ footer {background-color:#851e9e; color:#ffffff; margin-top:30px; padding:22px; 
 footer a {color:#ffffff;}
         .mainflexbox {display:flex; margin:20px;}
         .rightcolumn {flex:1;}
-        .leftcolumn {flex:6;} 
+        .leftcolumn {flex:8;} 
 
 @media only screen and (max-width:630px) 
 { 
