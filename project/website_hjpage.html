@@ -7,15 +7,27 @@
     <link rel="stylesheet" href="styleproject.css">
     <title>Website Project</title>
     <style>
-            .mainflex {display:flex;}
+            @media only screen and (max-width:1600px) 
+        {
+            .mainflex {display:flex; flex-wrap:wrap;} 
             .leftcol {flex:2; margin:25px;}
             .rightcol {flex:3; margin:25px;}
             .marni {text-align: center;}
             .image2 {float:left; margin-left:90px;}
             .image3 {float:right;margin-right:90px;}
             div .image2 , div .image3 {flex:33%;}
-            
-            p {line-height:280%; text-indent: 40px;}
+            p {line-height:280%; text-indent: 40px;} 
+        }
+        @media only screen and (max-width:630px) 
+        {
+            p {font-size:75%; text-indent:0px; line-height:190%;}
+            h1 {padding:15px;}
+            .mainflex {flex:none; flex-wrap:none;}
+            .leftcol {margin:15px; padding:15px;}
+            .rightcol {margin:15px; padding:15px;}
+            .marni {text-align:inherit;}
+            .image2, .image3 {float:none; margin:10px;}
+        }
 
     </style>
 </head>

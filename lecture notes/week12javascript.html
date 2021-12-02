@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function firstfunction () {
+            alert('Hello World!'); } // this command puts an alert on the screen
+        function secondmessage() {
+            alert('Second message');
+        }
+        function checkfield () {
+            alert('You did not type in a password');
+        }
+    </script>
+</head>
+<body onload="firstfunction();">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+    <a href="" onclick="secondmessage();">My second alert</a>
+    <!-- this will run some javascript when the link is clicked -->
+    <form>
+        <label for="username">Username</label> <br>
+        <input type="text" name="username" id="username"> <br>
+        <label for="password">Password</label> <br>
+        <input type="text" name="password" id="password" onblur="checkfield();"> <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
