@@ -29,7 +29,8 @@ footer a {color:#ffffff;}
 footer {display:flex; font-size:75%; padding:none;}
 .rightcolumn {flex:1; margin-left:13px;}
 .leftcolumn {flex:3;}
-nav {font-size:94%; display:block; text-align:left; margin-left:15px;}
+nav {font-size:94%; display:block; text-align:left; background-color:#851e9e; margin-top:30px; padding:22px; line-height: 2em;}
+nav a{color:#ffffff;}
 .divider {display:none;}
 h1 {font-size:180%;}
 }
