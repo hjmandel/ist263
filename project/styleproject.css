@@ -26,8 +26,8 @@ footer a {color:#ffffff;}
 
 @media only screen and (max-width:630px) 
 { 
-footer {display:flex; font-size:75%; padding:none; margin:none;}
-h2 {font-size:140%;}
+footer {display:flex; font-size:80%; padding:none; margin:none;}
+h2 {font-size:117%;}
 .mainflexbox {margin:none;}
 .rightcolumn {flex:1;}
 .leftcolumn {flex:2; margin-right:24px;}
