@@ -26,9 +26,11 @@ footer a {color:#ffffff;}
 
 @media only screen and (max-width:630px) 
 { 
-footer {display:flex; font-size:75%; padding:none;}
-.rightcolumn {flex:1; margin-left:11px;}
-.leftcolumn {flex:4;}
+footer {display:flex; font-size:75%; padding:none; margin:none;}
+h2 {font-size:140%;}
+.mainflexbox {margin:none;}
+.rightcolumn {flex:1;}
+.leftcolumn {flex:2; margin-right:24px;}
 nav {font-size:94%; display:block; text-align:left; background-color:#851e9e; margin-top:30px; padding:22px; line-height: 2em;}
 nav a{color:#ffffff;}
 .divider {display:none;}
